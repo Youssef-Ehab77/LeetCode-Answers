@@ -18,8 +18,7 @@ var constructMaximumBinaryTree = function (nums) {
     let tree = new TreeNode(nums[maxIndex]);
     tree.left = constructMaximumBinaryTree(nums.slice(0, (maxIndex <= 0 ? 0 : maxIndex)));
     tree.right = constructMaximumBinaryTree(nums.slice(maxIndex + 1, nums.length));
-
     return tree;
 };
 
-console.log(constructMaximumBinaryTree([3, 2, 1, 6, 0, 5]))
+console.log(constructMaximumBinaryTree([3, 2, 1, 6, 0, 5]));
