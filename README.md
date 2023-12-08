@@ -1,2 +1,2 @@
 # LeetCode-Answers
-Answers for random LeetCode problems. Will try to add comments to un commented ones and comment the new ones.
+Solutions for various LeetCode problems. Efforts will be made to incorporate comments for previously uncommented solutions and to provide commentary for newly added solutions.
